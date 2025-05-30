@@ -6,7 +6,7 @@
     - Define your application: Traditional web application 
     - Configure options: Email
 2. Utworzenie App Client dla user pool
-    - App client > Edit <!-- ![Grafika 1](screenshots/1.png "blabla") -->
+    - App client > Edit
         <figure>
         <center><img src="img/1.png" width="800"></center>
         <figcaption>Grafika 1</figcaption>
