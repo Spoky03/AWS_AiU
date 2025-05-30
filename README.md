@@ -67,7 +67,7 @@
         ```
     - Jako odpowiedź dostaniesz pre-signed url z twoim obrazem
 
-    Sygnalizuje to, że aplikacja działa poprawnie.
+<b>Sygnalizuje to, że aplikacja działa poprawnie.</b>
 
 
 # 📘 API Dokumentacja 
@@ -76,7 +76,7 @@
 Wszystkie endpointy wymagają tokena `access_token` w nagłówku `Authorization`:
 
 
-Token powinien pochodzić z Amazon Cognito (Hosted UI lub inna metoda logowania użytkownika).
+Token powinien pochodzić z Amazon Cognito Hosted UI
 
 ---
 
@@ -146,7 +146,7 @@ Przesyła obraz do bucketa S3 (akceptowane tylko pliki graficzne). Plik zostaje 
 }
 ```
 
-## 🗑️ DELETE /delete-file
+## DELETE /delete-file
 
 ### Opis
 Usuwa wskazany plik z bucketa S3. Dodatkowo sprawdzane jest, czy użytkownik jest właścicielem pliku (czy ścieżka zaczyna się od `images/<userId>/`).
@@ -179,7 +179,7 @@ Authorization: Bearer eyJraWQiOiJ...
 }
 ```
 
-## 📄 GET /list-files
+## GET /list-files
 
 ### Opis
 Zwraca listę plików przesłanych przez aktualnie uwierzytelnionego użytkownika do S3. Pliki są filtrowane po prefiksie `images/<userId>/`.
