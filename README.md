@@ -9,18 +9,15 @@
     - App client > Edit
         <figure>
         <center><img src="img/1.png" width="800"></center>
-        <figcaption>Grafika 1</figcaption>
         </figure>
     - App client > Login pages > Edit
         <figure>
         <center><img src="img/2.png" width="800"></center>
-        <figcaption>Grafika 2</figcaption>
         </figure>
 3. Utworzenie bucketu S3
     - Domyślne opcje oprócz Block public access
         <figure>
         <center><img src="img/3.png" width="800"></center>
-        <figcaption>Grafika 3</figcaption>
         </figure>
     - Wgranie dowolnej grafiki (.png/.jpg)
 4. Konfiguracja serwera
