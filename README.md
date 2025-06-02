@@ -2,25 +2,29 @@
 ## Implementacja w ograniczonym środowisku AWS Academy
 
 ### AWS
-1. Utworzenie User Pool z parametrami:
-    - Define your application: Traditional web application 
-    - Configure options: Email
-2. Utworzenie App Client dla user pool
-    - App client > Edit
+1. Utworzenie User Pool:
+    - Wejdź w Cognito -> User Pools -> Create User Pool
+    - ustaw parametry:
+        - Define your application: Traditional web application 
+        - Configure options: Email
+3. Utworzenie App Client dla user pool
+    - App client > Edit <br>
         <figure>
         <center><img src="img/1.png" width="800"></center>
         </figure>
-    - App client > Login pages > Edit
+        <br>
+    - App client > Login pages > Edit <br>
         <figure>
         <center><img src="img/2.png" width="800"></center>
         </figure>
-3. Utworzenie bucketu S3
+        <br>
+4. Utworzenie bucketu S3
     - Domyślne opcje oprócz Block public access
         <figure>
         <center><img src="img/3.png" width="800"></center>
         </figure>
     - Wgranie dowolnej grafiki (.png/.jpg)
-4. Konfiguracja serwera
+5. Konfiguracja serwera
     - sklonowanie repozytorium
         ```sh
         git clone https://github.com/Spoky03/AWS_AiU
@@ -50,7 +54,7 @@
         ```sh
         npm run dev
         ```
-5. Test
+6. Test
     - W app client kliknij `View login page`
     - Utwórz użytkownika
     - Potwierdź email
